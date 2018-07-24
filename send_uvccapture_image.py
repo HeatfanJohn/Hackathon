@@ -92,5 +92,7 @@ def main():
             frame_count += 1
         else:
             print( "Command " + uvc_command + " returned " + str(retvalue) )
+
+        time.sleep( 10 )
 if __name__ == '__main__':
     main()
